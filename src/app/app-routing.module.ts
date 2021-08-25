@@ -20,9 +20,13 @@ const routes: Routes = [
     loadChildren: () => import('./addplace/addplace.module').then( m => m.AddplacePageModule)
   },
   {
+    path: 'range',
+    loadChildren: () => import('./range/range.module').then( m => m.RangePageModule)
+  },
+  {
     path: ':placeId',
     loadChildren: () => import('./place-details/place-details.module').then( m => m.PlaceDetailsPageModule)
-  },
+  }
 ];
 
 @NgModule({

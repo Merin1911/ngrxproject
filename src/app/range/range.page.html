@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>range</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+        <ion-col size="8">
+          <div class="range_div">
+            <ion-range min="20" max="80" step="2" class="range" ionChange="change($event)">
+            </ion-range>
+          </div>
+        </ion-col>
+        <ion-col size="4">
+          <div class="range_input">
+            <ion-input class="ion-justify-content-center" type="number" value="20"></ion-input>
+            <span>times</span>
+          </div>
+        </ion-col>
+    </ion-row>
+    </ion-grid>
+</ion-content>
