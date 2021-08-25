@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'sms',
+    loadChildren: () => import('./sms/sms.module').then( m => m.SmsPageModule)
+  },
 ];
 
 @NgModule({
