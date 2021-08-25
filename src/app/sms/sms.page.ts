@@ -54,7 +54,7 @@ export class SmsPage implements OnInit {
    })
   .catch((error: any) => {
     console.error(error);
-    alert(error);
+
   });
   }
   f(){
