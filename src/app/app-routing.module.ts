@@ -15,6 +15,14 @@ const routes: Routes = [
     path: 'sms',
     loadChildren: () => import('./sms/sms.module').then( m => m.SmsPageModule)
   },
+  {
+    path: 'addplace',
+    loadChildren: () => import('./addplace/addplace.module').then( m => m.AddplacePageModule)
+  },
+  {
+    path: ':placeId',
+    loadChildren: () => import('./place-details/place-details.module').then( m => m.PlaceDetailsPageModule)
+  },
 ];
 
 @NgModule({
