@@ -1,0 +1,25 @@
+.range{
+  --knob-background: green;
+  --bar-background-active: green !important;
+  --bar-background: white !important;
+  --bar-border-color: 1px solid black;
+  --bar-height: 10px;
+  --knob-size: 15px;
+  --knob-border-radius: 60%;
+  --bar-border-radius: 20px;
+  --knob-box-shadow: 0px 0px 0px 10px #fff;
+}
+.range_div{
+  background-color: rgba(231, 229, 229, 0.761);
+  // padding: 20px;
+}
+.range_input{
+  border: 1px solid rgb(236, 234, 234);
+  display: flex;
+  height: 55px;
+  padding: 2px;
+  padding-right: 10px;
+}
+span{
+  line-height: 48px;
+}
