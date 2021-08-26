@@ -24,6 +24,10 @@ const routes: Routes = [
     loadChildren: () => import('./range/range.module').then( m => m.RangePageModule)
   },
   {
+    path: 'round-progressbar',
+    loadChildren: () => import('./round-progressbar/round-progressbar.module').then( m => m.RoundProgressbarPageModule)
+  },
+  {
     path: ':placeId',
     loadChildren: () => import('./place-details/place-details.module').then( m => m.PlaceDetailsPageModule)
   }
