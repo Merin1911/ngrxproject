@@ -1,0 +1,126 @@
+.inner-round {
+  width: 174px;
+  height: 166px;
+  position: relative;
+  border: 11px solid rgb(236, 234, 234);
+  margin: 12px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #c7c5c5;
+  background: radial-gradient(rgb(129, 127, 128), #20201f);
+}
+.outer-round,
+.outer {
+  border: 1px solid #fff;
+  margin: 12px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #eeecec;
+}
+.insidecircle_1 {
+  background: linear-gradient(135deg, #686667 0%, #38393a 100%);
+  color: black;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  top: 26px;
+  left: 19px;
+  position: absolute;
+}
+.insidecircle_2 {
+  background: linear-gradient(135deg, #686667 0%, #38393a 100%);
+  color: black;
+  width: 17px;
+  height: 14px;
+  border-radius: 50%;
+  top: 41px;
+  left: 10px;
+  position: absolute;
+}
+.insidecircle_3 {
+  background: linear-gradient(135deg, #686667 0%, #38393a 100%);
+  color: black;
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  top: 39px;
+  left: 28px;
+  position: absolute;
+}
+.insidecircle_4 {
+  background: linear-gradient(135deg, #686667 0%, #38393a 100%);
+  color: black;
+  width: 12px;
+  height: 10px;
+  border-radius: 50%;
+  top: 97px;
+  left: 21px;
+  position: absolute;
+}
+.insidecircle_5 {
+  background: linear-gradient(135deg, #686667 0%, #38393a 100%);
+  color: black;
+  width: 10px;
+  height: 8px;
+  border-radius: 50%;
+  top: 90px;
+  left: 13px;
+  position: absolute;
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value {
+  position: absolute;
+  bottom: 39%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 36px;
+}
+
+.progress {
+  padding: 19px;
+}
+$fontWeight: 50;
+
+.progress-bar {
+  padding: 4px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.progress-bar-determinate {
+  border-radius: 50px;
+  background: var(--ion-color-bottom-background);
+  height: 5px;
+  --buffer-background: var(--ion-color-bottom-background);
+  --progress-background: var(--ion-color-progress-bar-buffer);
+}
+
+.right-col {
+  display: flex;
+  align-items: center;
+}
+
+strong {
+  width: 100%;
+  font-size: 12px;
+  text-align: right;
+}
+
+small {
+  font-weight: $fontWeight;
+  font-size: 12px;
+}
+
+.item-name {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+span {
+  font-weight: $fontWeight;
+  font-size: 12px;
+}
