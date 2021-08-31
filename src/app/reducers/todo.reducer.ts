@@ -19,6 +19,17 @@ export function TodoReducer(state = initialState,action: ActionParent){
         const newState = [...state];
         newState.splice(action.payload, 1);
         return newState;
+      case TodoActionType.update:
+        console.log(action.payload);
+        const updateState = state[action.payload.index];
+        const updateTodo = {
+          ...updateState,
+          ...action.payload.data
+        };
+        const updateTodos = [...state];
+        updateTodos[action.payload.index] = updateTodo;
+        console.log(updateTodos,'u');
+        return updateTodos;
       default:
         return state;
     }

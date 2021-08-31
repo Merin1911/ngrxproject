@@ -17,3 +17,9 @@ export class ActionParent implements Action {
 
   }
 }
+export class TodoUpdate implements ActionParent{
+  type = TodoActionType.update;
+  constructor(public payload: {index: number;data: any}){
+
+  }
+}
